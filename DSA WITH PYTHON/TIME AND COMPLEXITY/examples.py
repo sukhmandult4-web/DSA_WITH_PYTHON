@@ -1,8 +1,5 @@
-"""
-=========================================
+
 TIME COMPLEXITY EXAMPLES
-=========================================
-"""
 
 # O(1) - Constant Time
 # Accessing the first element of a list.
@@ -10,8 +7,7 @@ TIME COMPLEXITY EXAMPLES
 numbers = [10, 20, 30, 40, 50]
 print(numbers[0])
 
-
-# ---------------------------------------
+ ---------------------------------------
 
 # O(n) - Linear Time
 # Printing every element in a list.
@@ -21,8 +17,7 @@ numbers = [10, 20, 30, 40, 50]
 for num in numbers:
     print(num)
 
-
-# ---------------------------------------
+ ---------------------------------------
 
 # O(n²) - Quadratic Time
 # Nested loops.
@@ -33,8 +28,7 @@ for i in range(n):
     for j in range(n):
         print(i, j)
 
-
-# ---------------------------------------
+---------------------------------------
 
 # O(log n) - Logarithmic Time
 # Binary Search (concept only).
@@ -57,11 +51,9 @@ while low <= high:
         high = mid - 1
 
 
-"""
 =========================================
 SPACE COMPLEXITY EXAMPLES
 =========================================
-"""
 
 # O(1) Auxiliary Space
 # Only one extra variable is used.
@@ -74,8 +66,7 @@ total = x + y + z
 
 print(total)
 
-
-# ---------------------------------------
+ ---------------------------------------
 
 # O(n) Auxiliary Space
 # Creating another list of the same size.
@@ -88,8 +79,7 @@ for num in numbers:
 
 print(double)
 
-
-# ---------------------------------------
+ ---------------------------------------
 
 # Input Space vs Auxiliary Space
 
