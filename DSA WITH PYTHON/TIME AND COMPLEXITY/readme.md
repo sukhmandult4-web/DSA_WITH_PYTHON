@@ -20,7 +20,7 @@ Time complexity measures how the running time of an algorithm grows as the input
 
 > In Data Structures and Algorithms (DSA), we generally calculate the **Worst Case Time Complexity (Big-O notation)** because it guarantees the maximum time an algorithm can take in the worst possible scenario.
 
----
+
 
 ## Rules for Calculating Time Complexity
 
@@ -32,7 +32,6 @@ Time complexity measures how the running time of an algorithm grows as the input
 - Focus only on the term with the highest growth rate.
 - Time complexity depends on how the number of operations grows with the input size, not on the actual execution time.
 
----
 
 ## Common Time Complexities
 
@@ -47,7 +46,7 @@ Time complexity measures how the running time of an algorithm grows as the input
 | O(2ⁿ) | Exponential |
 | O(n!) | Factorial |
 
----
+
 
 ## Common Python List Operation Complexities
 
